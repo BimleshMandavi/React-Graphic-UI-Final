@@ -138,7 +138,7 @@ export default function TakeAdvantageSection() {
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4 sm:h-[100vh] overflow-y-scroll sm:mr-4">
+        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 px-4 sm:h-[100vh] overflow-y-scroll sm:mr-4">
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
@@ -147,13 +147,13 @@ export default function TakeAdvantageSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.1 + index * 0.0 }}
             >
-              <div className="flex items-center gap-1">
+              <div className="flex  items-center  gap-1">
                 <img
                   src={item.icon}
                   alt={item.title}
                   className="w-10 h-10 mb-4"
                 />
-                <h3 className="text-2xl text-black  font-semibold font-sans  text-center">{item.title}</h3>
+                <h3 className="text-2xl text-black  font-semibold font-sans  text-center mr-10">{item.title}</h3>
               </div>
               <p className="text-xl text-gray-600 font-Arimo font-normal px-10 mr-2 text-justify">{item.description}</p>
             </motion.div>

@@ -10,8 +10,8 @@ const CaseStudySection = () => {
   };
   return (
     <section className="bg-[#070324] py-8 sm:py-16 px-4  lg:px-8 text-white">
-      <div className="max-w-8xl mt-8">
-        <img className="sm:ml-96  flex justify-center  w-[500px]" src="/pic-12.png" />
+      <div className="max-w-8xl mt-8 ">
+        <img className="6  flex justify-center  w-full" src="/pic-12.png" />
         {/* Logos Section */}
         <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-24 gap-12 mb-8 sm:mb-16 cursor-pointer sm:mr-16">
           <motion.a href="/" 
@@ -70,13 +70,16 @@ const CaseStudySection = () => {
         {/* Main Content */}
        
        <motion.div className="md:px-20">
-        <div className="lg:flex lg:justify-between">
+        <div className="lg:flex  gap-20 lg:justify-between">
         <div>
-             <div className="flex gap-2 items-center mb-6">
+            
+            <div className="w-full mx-auto flex justify-center"> 
+            <div className="flex gap-2 items-center  mb-6">
               <img className="h-9 w-9" src="/pic-29.png" />
-              <span className="text-[13px]">FEATURED CASE STUDY</span>
+              <span className="text-[13px] text-center">FEATURED CASE STUDY</span>
             </div>
-            <h3 className="text-xl  sm:text-3xl lg:text-[48px] font-Arimo font-normal leading-8 mb-8">
+            </div>
+            <h3 className="text-3xl   lg:text-3xl text-center  font-Arimo font-normal leading-9 mb-8 ">
               "Reimagining a Legacy:
               <p className="lg:mt-5"> Redefining Top's India</p>
               <p className="lg:mt-5">
@@ -87,7 +90,6 @@ const CaseStudySection = () => {
               </p>
               <hr className=" green-400 mt-16" />
             </h3>
-            
             <div className="flex  w-full sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start lg:pt-3">
               <div>
                 <p className="text-3xl sm:text-8xl text-green-400">250%</p>
@@ -119,7 +121,7 @@ const CaseStudySection = () => {
             <img
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="size-60 w-full h-full  sm:w-[490px] md:w-[529px]"
+              className="size-60 w-full h-full  md:w-[529px]"
             />
           </motion.div>
         </div>

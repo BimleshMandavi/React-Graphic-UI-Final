@@ -16,13 +16,13 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="bg-[#0f0e24] border-b-2 border-[#262440] text-white px-6 py-4 lg:pl-56 lg:pr-20 flex justify-between items-center shadow-bottom-white relative z-50"
+      className="bg-[#0f0e24] border-b-2 border-[#262440] text-white max-xl:pl-0 px-6 py-4 xl:pl-56 xl:pr-20 flex justify-between items-center shadow-bottom-white relative z-50"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
     >
       {/* Left Navigation Items */}
-      <ul className="hidden md:flex space-x-8">
+      <ul className="hidden md:flex space-x- justify-between">
         {navItems.map((item) => (
           <li key={item.name} className="group relative sm:ml-10">
             <span className="cursor-pointer flex items-center font-raleway text-md gap-2">
@@ -78,7 +78,7 @@ export default function Navbar() {
         <div className="flex w-full justify-between md:w-auto md:justify-normal">
           <a
             href="#"
-            className="bg-[#1600ea] px-6 py-2 hover:bg-blue-500 transition md:ml-4"
+            className="bg-[#1600ea]  px-6 py-2 hover:bg-blue-500 transition md:ml-4"
           >
             Get Started
           </a>
@@ -126,4 +126,6 @@ export default function Navbar() {
       )}
     </motion.nav>
   );
+
+  
 }

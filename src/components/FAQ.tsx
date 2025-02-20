@@ -165,18 +165,18 @@ export default function FAQ() {
 
   return (
     <div className="w-full mx-auto pt-16 px-4 sm:px-6 pb-16 md:px-28 bg-[#ffffff]">
-      <h1 className="text-6xl text-start mb-6">
+      <h1 className="text-6xl max-sm:text-4xl text-start mb-6">
         Resolve your Doubts here.
       </h1>
       <ul className="space-y-8 sm:pt-14 sm:text-5xl">
         {questions.map(({ id, question, answer }) => (
           <li key={id} className="border-b">
             <div
-              className="flex items-center text-center justify-between py-2 cursor-pointer"
+              className="flex items-center text-center  justify-between py-2 cursor-pointer"
               onClick={() => toggleQuestion(id)}
             >
-              <span className="text-lg mb-8 font-semibold break-words sm:text-3xl">
-                {id}. <span className="sm:ml-12 translate-x-[20px]">{question}</span>
+              <span className="text-lg mb-8 font-semibold break-words sm:text-3xl ">
+                {id}. <span className="sm:ml-12 translate-x-[20px] ">{question}</span>
               </span>
               <button
                 className={`text-[#1600ea] text-xl text-center border-[#1600ea] border sm:text-3xl lg:text-3xl sm:mb-10 rounded-full w-14 h-14 ${openQuestion === id ? 'bg-[#1600ea] text-white' : 'bg-white'} t`}

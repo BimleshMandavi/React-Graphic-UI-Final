@@ -26,7 +26,7 @@ const CreativeTalentSection = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}>
-            <div className='flex'>
+            <div className='flex max-lg:justify-center '>
               <div
               className={`cursor-pointer px-2 ${activeButton === 'candidates' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
               onClick={() => handleClick('candidates')}
@@ -58,9 +58,9 @@ const CreativeTalentSection = () => {
             </div>
             </div>
       
-      <div className='lg:flex lg:justify-between py-6'>
-        <div className=" w-full ">
-           <h1 className="md:w-[65%] text-4xl sm:text-5xl lg:text-6xl  mb-6 font-Arimo font-normal text-black tracking-wider">
+      <div className='lg:flex lg:justify-between py-6 items-center'>
+        <div className=" w-full flex flex-col max-lg:items-center ">
+           <h1 className="text-4xl  xl:text-6xl  mb-6 font-Arimo font-normal text-black tracking-wider">
              Scale your Teams
              <p>
              Faster by Hiring {" "}
@@ -69,7 +69,7 @@ const CreativeTalentSection = () => {
              <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
              Talent.
            </h1>
-           <p className="text-[#000000] md:w-[65%] font-Arimo font-normal text-xl text-justify mb-6  pt-6">
+           <p className="text-[#000000] md:w-[65%] font-Arimo font-normal text-xl text-justify   pt-6">
              Join an exclusive talent pool and connect with leading brands
              searching for top creative professionals. Showcase your expertise,
              land your dream role, and redefine your career with endless
@@ -80,7 +80,7 @@ const CreativeTalentSection = () => {
              <li>Showcase Your Creative Talent to the World.</li>
              <li>Get Hired for Projects That Elevate Your Career.</li>
            </ul>
-           <button className="px-6 py-3 md:mt-10 bg-[#1600ea] text-white font-semibold  hover:bg-blue-700">
+           <button className="px-6 w-[200px] text-nowrap py-3 md:mt-10 bg-[#1600ea] text-white font-semibold  hover:bg-blue-700">
              Become Talent
            </button>
            </div>
@@ -91,7 +91,7 @@ const CreativeTalentSection = () => {
            transition={{ duration: 0.8 }}
          >
            <div className=" w-full h-full pt-1 rounded-lg  ">
-             <img className="w-full h-full   " src="/pic-09.png" alt="Arjun Mehta" />
+             <img className="  " src="/pic-09.png" alt="Arjun Mehta" />
           </div>
          </motion.div>
       </div>

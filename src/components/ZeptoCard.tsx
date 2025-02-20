@@ -49,7 +49,7 @@ export default function ZeptoSlider() {
 
   return (
 
-    <div className="sm:mt-20 sm:mx-52 relative pt-8">
+    <div className="sm:mt-20 sm:mx-52 relative pt-8 mb-2">
       <Slider {...settings}>
       {testimonials.map((testimonial, index) => (
         <div className="sm:flex  sm:items-center sm:justify-center mb-3 sm:h-80   ">
@@ -95,6 +95,7 @@ export default function ZeptoSlider() {
         .slick-dots {
           position: absolute;
           bottom: 90px;    /* Positioning from the bottom */
+        
           right: 0px;     /* Positioning from the right side */
           display: flex;
           justify-content: center;

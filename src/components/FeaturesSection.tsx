@@ -34,12 +34,12 @@ function FeaturesSection() {
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-4xl md:text-[63px]  font-Arimo font-normal space-y-4 text-center sm:mt-16  mb-12"
+            className="text-4xl lg:text-[63px] max-lg:text-[50px]  font-Arimo font-normal space-y-4 text-center sm:mt-16  mb-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <p className=''>Engaging Visual Creatives</p>
+            <p className='leading-[50px]'>Engaging Visual Creatives</p>
             <p className='p-5'>That Drive Results</p> 
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
