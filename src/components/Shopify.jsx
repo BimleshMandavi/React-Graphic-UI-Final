@@ -18,10 +18,10 @@ const Shopify = () => {
           alt=""
           srcset=""
         />
-        <p className="font-Helvetica font-normal sm:text-[21.56px] sm:w-[756px]">
+        <p className="font-Helvetica font-normal sm:text-[21.56px] sm:w-[756px] text-[]">
           "Superside makes it easy for Shopify's Growth team to get design done
           well and fast.{" "}
-          <span className=" font-bold text-black text-[24px]">
+          <span className=" font-normal text-black text-[24px]">
             {" "}
             Their platform is intuitive and enables speed. "
           </span>

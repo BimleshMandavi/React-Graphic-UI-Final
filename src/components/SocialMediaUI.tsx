@@ -20,7 +20,7 @@ const SocialMediaUI = () => {
             </div>
 
             <div>
-              <div className="sm:text-[32px] sm:w-[445px] font-Helvetica font-bold pt-4">
+              <div className="sm:text-[32px] sm:w-[445px] font-Helvetica font-normal pt-4">
                 <p> Designera carefully</p>
                 <p>screens and onboards talent,</p>
                 <p>boasting a network of over</p>
