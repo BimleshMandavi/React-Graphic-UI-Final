@@ -23,7 +23,7 @@ const SocialMediaExpertise: FC = () => {
   ];
 
   return (
-    <div className="bg-white text-black">
+    <div className="bg-[#FFF9E9] text-black">
       {/* Section 1: Social Media Expertise */}
       <div className="container mx-auto px-6 sm:px-16 py-12">
         <h2 className="text-3xl sm:text-4xl font-semibold text-center">
