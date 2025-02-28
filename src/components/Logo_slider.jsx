@@ -7,7 +7,7 @@ const Logo_slider = () => {
 const settings = {
   dots: false,
   infinite: true,
-  slidesToShow: 9, // Default for large screens
+  slidesToShow: 6, // Default for large screens
   slidesToScroll: 1,
   autoplay: true,
   speed: 2000,
@@ -49,8 +49,8 @@ const settings = {
       <div className="slider-container text-white text-center ">
         <Slider {...settings}>
           <div className="size-16 pr-5">
-            <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl">
-              <SiAdobe className="size-16 " />
+            <div className="text-white flex justify-center  items-center text-4xl">
+              <SiAdobe className="size-10 " />
               <span className="text-3xl font-ubuntu">Adobe</span>
             </div>
           </div>
