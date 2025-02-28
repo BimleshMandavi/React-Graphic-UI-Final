@@ -54,10 +54,11 @@ const settings = {
               <span className="text-3xl font-ubuntu">Adobe</span>
             </div>
           </div>
-          <div className="size-16">
+          
+          <div className="size-16 flex justify-center items-center">
             <img
-              className="h-full w-[120px] rounded-lg"
-              src="/pic-14.png"
+              className="h-full w-auto rounded-lg"
+              src="/Amazon.svg"
               alt=""
               srcset=""
             />
@@ -65,7 +66,7 @@ const settings = {
           <div className="size-16 flex justify-center items-center">
             <img
               className="h-full w-auto rounded-lg"
-              src="/pic-24.png"
+              src="/Axis.png"
               alt=""
               srcset=""
             />
@@ -73,15 +74,7 @@ const settings = {
           <div className="size-16 flex justify-center items-center">
             <img
               className="h-full w-auto rounded-lg"
-              src="/pic-26.png"
-              alt=""
-              srcset=""
-            />
-          </div>
-          <div className="size-16 flex justify-center items-center">
-            <img
-              className="h-full w-auto rounded-lg"
-              src="/pic-25.png"
+              src="/Airmeet.svg"
               alt=""
               srcset=""
             />
@@ -89,7 +82,7 @@ const settings = {
           <div className="size-16 flex justify-center items-center">
             <img
               className="h-full  w-[120px]"
-              src="/assets/park+.png"
+              src="/Apollo.svg"
               alt=""
               srcset=""
             />
@@ -97,7 +90,7 @@ const settings = {
           <div className="size-16 flex justify-center items-center">
             <img
               className="h-full  w-[120px]"
-              src="/assets/adani_logo.png"
+              src="/amazonpay.svg"
               alt=""
               srcset=""
             />
@@ -105,15 +98,15 @@ const settings = {
           <div className="size-16 flex justify-center items-center">
             <img
               className="h-full  w-[120px] rounded-lg"
-              src="/assets/Screenshot 2025-01-04 145058.png"
+              src="/Bina.svg"
               alt=""
               srcset=""
             />
           </div>
           <div className="size-16 flex justify-center items-center">
             <img
-              className="h-full w-auto ml-14 rounded-lg"
-              src="/pic-27.png"
+              className="h-full w-auto  rounded-lg"
+              src="/Dar.svg"
               alt=""
               srcset=""
             />
