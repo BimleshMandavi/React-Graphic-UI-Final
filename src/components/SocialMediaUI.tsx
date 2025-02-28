@@ -14,7 +14,7 @@ const candidates = [
 
 const SocialMediaUI = () => {
   return (
-    <div className="bg-[#f9f5f0] min-h-screen flex flex-col items-center p-8">
+    <div className="bg-[#f9f5f0] h-[703px] flex flex-col items-center p-8">
       {/* Header */}
       <h1 className="text-4xl font-semibold text-center">Get Access to the <span className="text-purple-500">Top 1%</span></h1>
       
@@ -34,7 +34,7 @@ const SocialMediaUI = () => {
         
         {/* Candidates Grid */}
         <div className="flex-1 grid grid-cols-2 gap-6 mt-6 md:mt-0 relative">
-          {candidates.map((candidate, index) => (
+          {/* {candidates.map((candidate, index) => (
             <div key={index} className="relative bg-white shadow-md p-4 rounded-lg text-center">
               <img src={candidate.img} alt={candidate.name} className="w-full h-28 object-cover rounded-md" />
               {candidate.category && (
@@ -55,7 +55,8 @@ const SocialMediaUI = () => {
                 </div>
               )}
             </div>
-          ))}
+          ))} */}
+          <img src="/top.svg" alt=""  />
         </div>
       </div>
     </div>
