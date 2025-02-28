@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -92,8 +92,8 @@ function Footer() {
 
       <div className=" flex justify-between flex-col md:flex-row md:justify-between pt-4 md:px-0 sm:mx-auto px-4 sm:py-6 border-t border-[#192138c9] ">
         {/* Company */}
-        <div className="flex justify-between md:w-[25%]">
-        <div className="">
+        <div className="flex justify-between md:w-[58%] translate-y-[16px]">
+        <div className="pb-6">
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">COMPANY</h5>
           <ul className="text-[15px]">
             <li className="mb-2">About Us</li>
@@ -107,9 +107,14 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className=" sm:ml-12 translate-x-[20px]" >
+        <div className=" sm:ml-12 translate-x-[23px]" >
           <h5 className="text-[15px] font-semibold mb-4  text-[#997200]">ADDRESS</h5>
-          <p className="hover:text-sky-800 cursor-pointer text-[15px]">Address</p>
+          {/* <p className="hover:text-sky-800 cursor-pointer text-[15px]">Address</p> */}
+          <div className="text-[15px]">
+          <p >C 5 A Block - 24, Ground Floor, Janakpuri, New Delhi - 110058</p>
+          <p className="my-3">14, Banshal Treashar,18, RamKrishna, Khandwa, Madhya Pradesh - 450001</p>
+          <p>1901, DB Ozone, Ketkipada, Dahisar East, Mumbai, Maharashtra - 400068</p>
+          </div>
         </div>
         </div>
 
@@ -159,7 +164,7 @@ function Footer() {
       </div>
 
       <div className="container mx-auto p-4 lg:p-0  py-4 lg:py-8 lg:flex lg:justify-between  border-t border-[#192138c9] lg:pb-10">
-        <div className="flex justify-evenly  text-sm lg:justify-between lg:w-[38%]">
+        <div className="flex justify-evenly  text-sm lg:justify-between lg:w-[50%]">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
         <ul className="flex  space-x-4 text-start ">
           <li>
