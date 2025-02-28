@@ -1,4 +1,6 @@
 
+
+
 import { motion } from "framer-motion";
 
 const StatsSection = () => {
@@ -13,7 +15,7 @@ const StatsSection = () => {
     <section className="bg-[#7B23FD] w-full text-white py-20 px-6">
       {/* Heading */}
       <motion.h2 
-        className="text-[48px] md:text-[60px] font-Helvetica font-normal lg:text-[72px]  text-center  mb-12"
+        className="text-[48px] md:text-[60px] font-Helvetica lg:text-[72px]  text-center  mb-12"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -22,19 +24,20 @@ const StatsSection = () => {
       </motion.h2>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 max-w-5xl  mx-auto text-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 w-full  px-16  text-center translate-x-[20px]">
         {stats.map((stat, index) => (
           <motion.div 
             key={index} 
-            className="flex justify-between items-center border-t border-white/50   py-6"
+            className="flex justify-between items-center border-t border-white/50    py-6"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
-          >
+            >
             <p className=" w-full text-[18px] md:text-[20px] lg:text-[18px] text-left ">{stat.label}</p>
-            
-            <h3 className=" text-[48px] md:text-[56px] lg:text-[64px] font-extrabold ">{stat.value}</h3>
+            <h3 className=" text-[48px] md:text-[56px] lg:text-[64px] font-medium ">{stat.value}</h3>
+            <hr className=" border-t border-white/50 "     />
           </motion.div>
+          
         ))}
       </div>
     </section>
