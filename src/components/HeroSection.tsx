@@ -40,15 +40,15 @@ function HeroSection() {
           </motion.button>
         </div>
         <motion.div
-          className="w-full sm:w-1/2 lg:w-2/5 flex justify-center sm:justify-end "
+          className="w-full sm:w-1/2 lg:w-2/5 flex justify-center sm:justify-end text-white"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <img
-            src="/header-x.svg"
+            src="/header1.svg"
             alt="Hero Image"
-            className="w-full h-full max-w-sm sm:max-w-md lg:max-w-lg lg:mt-8"
+            className="w-full h-full max-w-sm sm:max-w-md lg:max-w-lg lg:mt-8 text-white"
           />
         </motion.div>
       </div>
