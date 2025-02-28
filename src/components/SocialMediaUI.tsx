@@ -1,17 +1,17 @@
 const SocialMediaUI = () => {
   return (
-    <div className="bg-[#F9F5EC] h-[703px] flex justify-center items-center p-8">
-      <div className="w-[1393px]">
+    <div className="bg-[#F9F5EC] sm:h-[703px] sm:flex sm:justify-center sm:items-center p-8">
+      <div className="sm:w-[1393px]">
         <div className="flex justify-start">
-          <h1 className="font-Helvetica text-[48px] font-normal">
+          <h1 className="font-Helvetica text-[25px] sm:text-[48px] font-normal">
             Get Access to the <span className="text-[#9857F8]">Top 1%</span>{" "}
           </h1>
         </div>
 
-        <div className="flex justify-between items-center">
-          <div className="w-[570px]">
+        <div className="sm:flex sm:justify-between sm:items-center">
+          <div className="sm:w-[570px]">
             <div className="flex gap-5">
-              <div className="text-[16px] font-Helvetica font-normal border-b-2 border-[#1700EB]  text-[#1700EB] border-1 cursor-pointer">
+              <div className="text-[16px] font-Helvetica font-normal border-b-2 border-[#1700EB]  text-[#1700EB]  cursor-pointer">
                 For Candidates
               </div>
               <div className="text-[16px] font-Helvetica font-normal text-[#B0B0B0] cursor-pointer">
@@ -20,7 +20,7 @@ const SocialMediaUI = () => {
             </div>
 
             <div>
-              <div className="text-[32px] w-[445px] font-Helvetica font-bold pt-4">
+              <div className="sm:text-[32px] sm:w-[445px] font-Helvetica font-bold pt-4">
                 <p> Designera carefully</p>
                 <p>screens and onboards talent,</p>
                 <p>boasting a network of over</p>
@@ -39,7 +39,7 @@ const SocialMediaUI = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="pt-8 sm:pt-0">
             <img src="/top.svg" alt="" />
           </div>
         </div>

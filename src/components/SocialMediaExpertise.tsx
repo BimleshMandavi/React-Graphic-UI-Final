@@ -43,10 +43,10 @@ const SocialMediaExpertise = () => {
   return (
     <section className="bg-[#F9F5EC] py-16 px-6 md:px-16">
       <div className="text-center  mx-auto mb-12 flex justify-center flex-col items-center">
-        <h2 className="text-3xl md:text-[48px] font-normal h-[56px] w-[1180px] font-Helvetica text-[#0A211F]">
+        <h2 className="text-3xl md:text-[48px] font-normal sm:h-[56px] sm:w-[1180px] font-Helvetica text-[#0A211F]">
           Expertise Across all Social Media Platforms
         </h2>
-        <p className="text-gray-700 mt-3 w-[600px]">
+        <p className="text-gray-700 mt-3 sm:w-[600px]">
           Rely on our in-depth expertise, as well as the ability to version and
           scale any kind of social media content, static, motion, or video
           across your key social media channels.
@@ -55,7 +55,7 @@ const SocialMediaExpertise = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {platforms.map((platform, index) => (
-          <div key={index} className="h-[262px] w-[346.51px]">
+          <div key={index} className="sm:h-[262px] sm:w-[346.51px]">
             <div className="bg-[#FFBF0033] size-[80px] rounded-lg object-cover flex justify-center items-center">
               <img
                 src={platform.img}

@@ -46,7 +46,7 @@ const settings = {
 
   return (
     <div>
-      <div className="slider-container text-white text-center ">
+      <div className="slider-container text-white text-center cursor-pointer ">
         <Slider {...settings}>
           <div className="size-16 pr-5">
             <div className="text-white flex justify-center  items-center text-4xl">
