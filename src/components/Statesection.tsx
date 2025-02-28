@@ -12,9 +12,9 @@ const StatsSection = () => {
         Designera is best for your business
       </motion.h2>
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 w-[97%] px-16 text-center translate-x-[20px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 w-[97%] px-16 text-center md:translate-x-[20px]">
         <motion.div
-          className="flex justify-between items-center py-6"
+          className="sm:flex sm:justify-between sm:items-center sm:py-6"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -27,7 +27,7 @@ const StatsSection = () => {
           </h3>
         </motion.div>
         <motion.div
-          className="flex justify-between items-center py-6"
+          className="sm:flex sm:justify-between sm:items-center sm:py-6"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
@@ -40,7 +40,7 @@ const StatsSection = () => {
           </h3>
         </motion.div>
         <motion.div
-          className="flex justify-between items-center border-t border-white/20 py-6"
+          className="sm:flex sm:justify-between sm:items-center border-t border-white/20 sm:py-6"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
@@ -53,7 +53,7 @@ const StatsSection = () => {
           </h3>
         </motion.div>
         <motion.div
-          className="flex justify-between items-center border-t border-white/20 py-6"
+          className="sm:flex sm:justify-between sm:items-center border-t border-white/20 sm:py-6"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
