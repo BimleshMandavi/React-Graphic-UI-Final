@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
-import { IoIosArrowForward } from "react-icons/io";
+// import { IoIosArrowForward } from "react-icons/io";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
 
 // Define a type for the platform data
@@ -45,8 +45,6 @@ const SocialMediaExpertise: FC = () => {
           ))}
         </div>
       </div>
-
-      {/* Section 2: Shopify Testimonial */}
      
     </div>
   );

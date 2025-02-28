@@ -1,7 +1,7 @@
 const SocialMediaUI = () => {
   return (
     <div className="bg-[#F9F5EC] h-[703px] flex justify-center items-center p-8">
-      <div className="w-[1193px]">
+      <div className="w-[1393px]">
         <div className="flex justify-start">
           <h1 className="font-Helvetica text-[48px] font-normal">
             Get Access to the <span className="text-[#9857F8]">Top 1%</span>{" "}
@@ -10,13 +10,13 @@ const SocialMediaUI = () => {
 
         <div className="flex justify-between items-center">
           <div className="w-[570px]">
-            <div className="gap-4">
-              <span className="text-[16px] font-Helvetica font-normal text-[#1700EB] border-1">
+            <div className="flex gap-5">
+              <div className="text-[16px] font-Helvetica font-normal border-b-2 border-[#1700EB]  text-[#1700EB] border-1 cursor-pointer">
                 For Candidates
-              </span>
-              <span className="text-[16px] font-Helvetica font-normal text-[#B0B0B0]">
+              </div>
+              <div className="text-[16px] font-Helvetica font-normal text-[#B0B0B0] cursor-pointer">
                 For Enterprises
-              </span>
+              </div>
             </div>
 
             <div>
@@ -33,7 +33,9 @@ const SocialMediaUI = () => {
                 </p>
               </div>
               <div className="pt-10">
-                <button className="bg-[#1700EB] text-white h-[37px] w-[153px] rounded-md">Get Hired</button>
+                <button className="bg-[#1700EB] text-white h-[37px] w-[153px] rounded-md">
+                  Get Hired
+                </button>
               </div>
             </div>
           </div>

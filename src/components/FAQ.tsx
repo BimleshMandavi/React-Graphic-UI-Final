@@ -36,7 +36,7 @@ export default function FAQ() {
               className="flex items-center text-center justify-between py-2 cursor-pointer"
               onClick={() => toggleQuestion(id)}
             >
-              <span className="text-lg mb-8 font-semibold break-words sm:text-3xl">
+              <span className="text-lg mb-8 font-normal break-words sm:text-3xl">
                 {id}. <span className="sm:ml-12 translate-x-[20px] font-semibold text-[24px] font-Helvetica">{question}</span>
               </span>
               <button
