@@ -13,6 +13,10 @@ import FAQ from "../src/components/FAQ"
 import LandingPage from "./components/LandingPage"
 import Footer from "./components/Footer"
 import Nav_01 from "./components/Nav_01"
+import SocialMediaExpertise from "./components/SocialMediaExpertise"
+import SocialMediaUI from "./components/SocialMediaUI"
+import StatsSection from "./components/Statesection"
+import Shopify from "./components/Shopify.jsx"
 
 function App() {
 
@@ -25,16 +29,19 @@ function App() {
       <HeroSection />
       <FeaturesSection />
       <Services />
-      <ExpertToolsSection />
+      {/* <ExpertToolsSection /> */}
       <Statistics />
-      <ZeptoCard />
+      {/* <ZeptoCard /> */}
       <CaseStudySection />
       <SocialMediaExpertise />
-      <SocialMediaUI/>
+      <Shopify />
+   
       <ZeptoCard />
-      <Testimonials />
-      <StatsSection/>
-      <CreativeTalentSection />
+      {/* <Testimonials /> */}
+         <SocialMediaUI/>
+     
+      {/* <CreativeTalentSection /> */}
+       <StatsSection/>
       <BusinessUI />
       <FAQ />
       <LandingPage />

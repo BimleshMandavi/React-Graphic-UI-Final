@@ -184,77 +184,77 @@ const services = [
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+    img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+    img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+    img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+    img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+    img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+     img: "/service.svg",
   },
   {
     title: "Logo Design",
     description: "Craft unique and memorable logos that embody your brand’s identity.",
-    img: "https://via.placeholder.com/300",
+    img: "/service.svg",
   },
   
 ];
@@ -278,11 +278,11 @@ const HorizontalSlider = () => {
       {/* Auto-scrolling horizontal slider with pause */}
       <motion.div
         ref={carouselRef}
-        className="overflow-x-hidden cursor-grab relative"
+        className="overflow-x-hidden cursor-grab relative md:mx-20"
         whileTap={{ cursor: "grabbing" }}
       >
         <motion.div
-          className="flex space-x-6"
+          className="flex space-x-6 "
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
           initial={{ x: 0 }}
@@ -298,7 +298,7 @@ const HorizontalSlider = () => {
           {[...services, ...services].map((service, index) => (
             <motion.div
               key={index}
-              className=" border bottom-1 min-w-[300px] bg-white shadow-lg rounded-lg p-4"
+              className=" border bottom-1 min-w-[300px]  bg-white shadow-lg rounded-lg p-4"
             >
               <img
                 src={service.img}

@@ -47,42 +47,7 @@ const SocialMediaExpertise: FC = () => {
       </div>
 
       {/* Section 2: Shopify Testimonial */}
-      <div className="bg-gray-100 py-12 px-6 sm:px-16">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center">
-          {/* Left: Image */}
-          <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden mb-4 sm:mb-0 sm:mr-6">
-            <img src="/assets/shopify-user.jpg" alt="Shopify User" className="w-full h-full object-cover" />
-          </div>
-
-          {/* Right: Testimonial */}
-          <div className="flex-1 text-center sm:text-left">
-            <p className="text-lg font-semibold">
-              <span className="text-black font-bold">Superside</span> makes it easy for Shopify’s Growth team to get design done well and fast. 
-              <span className="text-black font-bold"> Their platform is intuitive and enables speed.</span>
-            </p>
-            <p className="text-gray-600 text-sm mt-2">- Amir Jaffari, Growth Lead at Shopify</p>
-
-            {/* Metrics */}
-            <div className="flex justify-center sm:justify-start mt-6 space-x-8">
-              <div>
-                <p className="text-blue-600 text-3xl font-bold">250%</p>
-                <p className="text-gray-600 text-sm">Increase in Click Rate</p>
-              </div>
-              <div>
-                <p className="text-blue-600 text-3xl font-bold">192k+</p>
-                <p className="text-gray-600 text-sm">Leads Generated with Creatives</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Arrow Button */}
-          <div className="hidden sm:block ml-6">
-            <button className="p-3 bg-black text-white rounded-full hover:bg-gray-800">
-              <IoIosArrowForward className="text-xl" />
-            </button>
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 };
