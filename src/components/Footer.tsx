@@ -1,4 +1,4 @@
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
