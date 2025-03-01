@@ -4,55 +4,6 @@ import { motion } from "framer-motion";
 function BusinessUI() {
   return (
     <div className="bg-[#120d23] text-white font-sans sm:px-16">
-      <section className="text-center pt-20 py-12">
-        <h1 className="text-4xl font-normal font-Helvetica sm:text-6xl mb-4 mt-8">
-          How we are best for your business.
-        </h1>
-
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 text-xl pt-12 pb-8">
-          <div className="text-center">
-            <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">
-              $10M+{" "}
-            </h2>
-            <p className="font-normal font-Helvetica">Revenue for Clients</p>
-          </div>
-
-          {/* Vertical Divider */}
-          {/* <div className="hidden sm:block border-l-2 border-white h-24"></div> */}
-          <div
-            className="hidden sm:block border-l-2 h-24"
-            style={{ borderColor: "#6c6a74" }}
-          ></div>
-
-          <div className="text-center">
-            <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">
-              1500+{" "}
-            </h2>
-            <p className="font-normal font-Helvetica">Projects Delivered</p>
-          </div>
-
-          {/* Vertical Divider */}
-          {/* <div className="hidden sm:block border-l-2 border-white h-24"></div> */}
-          <div
-            className="hidden sm:block border-l-2 h-24"
-            style={{ borderColor: "#6c6a74" }}
-          ></div>
-
-          <div className="text-center">
-            <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">
-              10k+
-            </h2>
-            <p className="font-normal font-Helvetica">Expert Designers</p>
-          </div>
-        </div>
-
-        {/* Horizontal Line */}
-        {/* <hr className="max-w-[996px] w-[90%] mx-auto mb-8 border-t border-white px-4 sm:px-0" /> */}
-        <hr
-          className="max-w-[996px] w-[90%] mx-auto mb-8 border-t px-4 sm:px-0"
-          style={{ borderColor: "#CECDD2" }}
-        />
-      </section>
 
       <section className="text-center py-12">
         <h2 className="text-4xl font-normal font-Helvetica sm:text-[60px] mb-8">
