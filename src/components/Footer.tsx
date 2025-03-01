@@ -270,7 +270,7 @@ return (
     <div className="container mx-auto p-4 lg:p-0 py-4 lg:py-8 lg:flex lg:justify-between border-t border-[#192138c9] lg:pb-10">
       <div className="flex justify-evenly text-sm lg:justify-between lg:w-[42%]">
         <p className="text-sm text-[#1700ea6d] ">
-          © 2024, Name Inc. All Rights Reserved.
+          © 2024, Designera Inc. All Rights Reserved.
         </p>
         <ul className="flex space-x-4 text-start ">
           <li>
