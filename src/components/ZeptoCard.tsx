@@ -7,27 +7,28 @@ import { LuArrowRight } from "react-icons/lu";
 export default function ZeptoSlider() {
   const testimonials = [
     {
-      image: "/pic-14.png",
+      image: "/zepto-img.svg",
       name: "Sanskruti Verma",
       role: "Visual Design Manager",
       feedback:
         "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
     },
     {
-      image: "/pic-14.png",
-      name: "Sanskruti Verma",
-      role: "Visual Design Manager",
-      feedback:
-        "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
-    },{
-      image: "/pic-14.png",
+      image: "/zepto-img.svg",
       name: "Sanskruti Verma",
       role: "Visual Design Manager",
       feedback:
         "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
     },
     {
-      image: "/pic-14.png",
+      image: "/zepto-img.svg",
+      name: "Sanskruti Verma",
+      role: "Visual Design Manager",
+      feedback:
+        "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
+    },
+    {
+      image: "/zepto-img.svg",
       name: "Sanskruti Verma",
       role: "Visual Design Manager",
       feedback:
@@ -48,46 +49,49 @@ export default function ZeptoSlider() {
   };
 
   return (
-
     <div className="sm:pt-20 sm:px-52 relative pt-8 bg-[#1700EB] ">
       <Slider {...settings}>
-      {testimonials.map((testimonial, index) => (
-        <div className="sm:flex  sm:items-center sm:justify-center mb-3 sm:h-80   ">
-      <motion.div
-        className="flex flex-col md:flex-row items-center gap-10   rounded-lg max-w-7xl"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-      >
-        {/* Left Section */}
-        <div className="flex flex-col items-center  md:items-start w-full ">
-          <img className ="rounded-2xl sm:pr-10 w-[200px]" src={testimonial.image} />
+        {testimonials.map((testimonial, index) => (
+          <div className="sm:flex  sm:items-center sm:justify-center mb-3 sm:h-80   ">
+            <motion.div
+              className="flex flex-col md:flex-row items-center gap-10   rounded-lg max-w-7xl"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              {/* Left Section */}
+              <div className="flex flex-col items-center  md:items-start w-full ">
+                <img
+                  className="rounded-sm sm:pr-10 w-[200px]"
+                  src={testimonial.image}
+                />
 
-          <div className="mt-4 text-center md:text-left ">
-            <p className=" text-[#FFD97C] text-lg font-Arimo font-medium">{testimonial.name}</p>
-            <p className="text-[19px] text-white font-Arimo font-normal">{testimonial.role}</p>
+                <div className="mt-4 text-center md:text-left ">
+                  <p className=" text-[#FFD97C] text-lg font-Arimo font-medium">
+                    {testimonial.name}
+                  </p>
+                  <p className="text-[19px] text-white font-Arimo font-normal">
+                    {testimonial.role}
+                  </p>
+                </div>
+              </div>
+
+              {/* Right Section */}
+              <div className="text-black font-Arimo font-normal sm:text-xl text-center md:text-left sm:w-auto  bg-white p-6  rounded-lg max-w-4xl">
+                <p>{testimonial.feedback}</p>
+                <a
+                  href="#"
+                  className="inline-block mt-4 text-[#1600ea] hover:underline sm:flex items-center"
+                >
+                  View Portfolio{" "}
+                  <span className="ml-2">
+                    <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
+                  </span>
+                </a>
+              </div>
+            </motion.div>
           </div>
-        </div>
-
-        {/* Right Section */}
-        <div className="text-black font-Arimo font-normal sm:text-xl text-center md:text-left sm:w-auto  bg-white p-6  rounded-lg max-w-4xl">
-          <p>
-            {testimonial.feedback}
-          </p>
-          <a
-            href="#"
-           
-            className="inline-block mt-4 text-[#1600ea] hover:underline sm:flex items-center"
-          >
-            View Portfolio <span className="ml-2">
-                            <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
-              
-            </span>
-          </a>
-        </div>
-      </motion.div>
-    </div>
-      ))}
+        ))}
       </Slider>
 
       {/* Custom CSS for positioning the dots */}
@@ -103,12 +107,13 @@ export default function ZeptoSlider() {
         }
 
         .slick-dots li button:before {
-          font-size: 12px;
-          color: rgba(0, 0, 0, 0.5); /* Default dot color */
+          color: white !important; /* Change dots to white */
+    opacity: 0.75; /* Adjust opacity for better visibility */
           }
           
         .slick-dots li.slick-active button:before {
-          color: #1600ea; /* Active dot color */
+          color: white !important; /* Ensure active dot is also white */
+    opacity: 1;
         }
       `}</style>
     </div>
