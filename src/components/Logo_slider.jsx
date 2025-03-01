@@ -48,13 +48,22 @@ const settings = {
     <div>
       <div className="slider-container text-white text-center cursor-pointer ">
         <Slider {...settings}>
-          <div className="size-16 pr-5">
+          {/* <div className="size-16 pr-5">
             <div className="text-white flex justify-center gap-4 items-center text-4xl">
               <SiAdobe className="size-10 " />
               <span className="text-3xl font-ubuntu">Adobe</span>
             </div>
+          </div> */}
+
+          <div className="size-16 flex justify-center items-center">
+            <img
+              className="h-full w-auto rounded-lg"
+              src="/Adobe.svg"
+              alt=""
+              srcset=""
+            />
           </div>
-          
+
           <div className="size-16 flex justify-center items-center">
             <img
               className="h-full w-auto rounded-lg"
