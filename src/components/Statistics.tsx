@@ -38,7 +38,7 @@ export default function BenefitSection() {
               {/* <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-Arimo font-normal">Hire Designera &#x2197;</a> */}
               {/* <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-Arimo font-normal"><div>Hire Designera<LuArrowUpRight /></div></a> */}
               <a href="#" className="text-[#1600ea] text-md sm:px-8 font-Arimo font-normal flex items-center">
-  Hire Designer
+  Hire Designera
   <LuArrowUpRight className="ml-1 text-xl sm:text-2xl" />
 </a>
 
