@@ -113,7 +113,7 @@ className="w-full h-full max-w-sm sm:max-w-md lg:max-w-lg lg:mt-8 text-white"
 <SiAdobe className="w-9 h-9 " />
 <span className="text-3xl font-ubuntu">Adobe</span>
 </div> */}
-<div className='mt-16 md:mx-24'> <Logo_slider /></div>
+<div className='mt-16 md:mx-20'> <Logo_slider /></div>
 </motion.section>
 );
 }

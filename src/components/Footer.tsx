@@ -63,6 +63,7 @@ function Footer() {
             <li className="mb-4 hover:text-sky-600">Social Media Marketing</li>
             <li className="mb-4 hover:text-sky-600">Campaign Planning</li>
             <li className="hover:text-sky-600">WhatsApp/Email Marketing</li>
+            <li className="hover:text-sky-600">CRM</li>
           </ul>
         </div>
         {/* Column 4 */}
@@ -74,7 +75,7 @@ function Footer() {
             <li className="mb-4 hover:text-sky-600">Media Planning & Buying</li>
             <li className="mb-4 hover:text-sky-600">Influencer Marketing</li>
             <li className="mb-4 hover:text-sky-600">Event Marketing</li>
-            <li className="hover:text-sky-600">Customer Relations</li>
+            
           </ul>
           <h5 className="text-[15px] font-semibold sm:mt-14 mb-4 text-[#997200]">
             TALENT NETWORK SERVICES
@@ -210,7 +211,7 @@ function Footer() {
       <div className="container mx-auto p-4 lg:p-0 py-4 lg:py-8 lg:flex lg:justify-between border-t border-[#192138c9] lg:pb-10">
         <div className="flex justify-evenly text-sm lg:justify-between lg:w-[42%]">
           <p className="text-sm text-[#1700ea6d] ">
-            © 2024, Name Inc. All Rights Reserved.
+            © 2024, Designera Inc. All Rights Reserved.
           </p>
           <ul className="flex space-x-4 text-start ">
             <li>
