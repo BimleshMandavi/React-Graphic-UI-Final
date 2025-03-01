@@ -183,80 +183,112 @@ import { useRef, useEffect, useState } from "react";
 const services = [
   {
     title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
+    description:
+      "Craft unique and memorable logos that embody your brand’s identity.",
     img: "/service.svg",
   },
   {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
+    title: "Brand Identity Design",
+    description:
+      "Developing complete branding elements, including color palettes, typography, and visual style guidelines.",
     img: "/service.svg",
   },
   {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
+    title: "Social Media Graphics",
+    description:
+      "Creating visually engaging graphics for social media posts, ads, stories, and banners.",
     img: "/service.svg",
   },
   {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
+    title: "Website and App Graphics",
+    description:
+      "Designing UI/UX visuals, icons, and elements for websites and mobile applications.",
     img: "/service.svg",
   },
   {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
+    title: "Infographics",
+    description:
+      "Converting complex data and information into visually appealing and easy-to-understand infographics.",
     img: "/service.svg",
   },
   {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
-     img: "/service.svg",
-  },
-  {
-    title: "Logo Design",
-    description: "Craft unique and memorable logos that embody your brand’s identity.",
+    title: "Ad Banners",
+    description:
+      "Develop eye-catching ad banners optimized for digital campaigns to maximize clicks and conversions.",
     img: "/service.svg",
   },
-  
+  {
+    title: "Motion Graphics and GIFs",
+    description:
+      "Craft unique and memorable logos that embody your brand’s identity.",
+    img: "/service.svg",
+  },
+  {
+    title: "Brochure & Flyers",
+    description:
+      "Design informative and visually appealing brochures and flyers that effectively convey your message and promote your business.",
+    img: "/service.svg",
+  },
+  {
+    title: "Illustration Services",
+    description:
+      "Producing custom illustrations tailored to enhance brand communication and storytelling.",
+    img: "/service.svg",
+  },
+  {
+    title: "Presentation Design",
+    description:
+      "Create compelling PowerPoint templates and pitch decks that captivate audiences and communicate your message effectively.",
+    img: "/service.svg",
+  },
+  {
+    title: "Advertising Design",
+    description:
+      "Designing print and digital ads, including billboards, banners, and magazine layouts, for impactful campaigns.",
+    img: "/service.svg",
+  },
+  {
+    title: "Ebook and Publication",
+    description:
+      "Designing layouts for ebooks, magazines, and newsletters with consistent and appealing visual aesthetics.",
+    img: "/service.svg",
+  },
+  {
+    title: "Menu Design",
+    description:
+      "Crafting attractive and easy-to-navigate menus for restaurants, cafes, or events.",
+    img: "/service.svg",
+  },
+  {
+    title: "Poster and Banner Design",
+    description:
+      "Creating impactful posters and banners for promotions, events, or campaigns.",
+    img: "/service.svg",
+  },
+  {
+    title: "Custom Typography Design",
+    description:
+      "Creating unique fonts and typography tailored to brand requirements.",
+    img: "/service.svg",
+  },
+  {
+    title: "Book Cover Design",
+    description:
+      "Crafting visually appealing and market-relevant book covers for print and digital publications.",
+    img: "/service.svg",
+  },
+  {
+    title: "UI Icon Design",
+    description:
+      "Crafting consistent, functional, and aesthetically pleasing icons for apps and websites.",
+    img: "/service.svg",
+  },
+  {
+    title: "Brand Asset Creation",
+    description:
+      "Developing a library of cohesive design assets to ensure consistent branding across platforms.",
+    img: "/service.svg",
+  },
 ];
 
 const HorizontalSlider = () => {
