@@ -4,7 +4,7 @@ const StatsSection = () => {
     <section className="bg-[#7B23FD] w-full text-white py-20 px-6">
       {/* Heading */}
       <motion.h2
-        className="text-[48px] md:text-[60px] font-Helvetica lg:text-[60px] text-center mb-12"
+        className="text-[48px] md:text-[60px] font-Helvetica font-normal lg:text-[60px] text-center mb-12"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -19,7 +19,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] lg:text-[18px] text-left">
+          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
@@ -32,7 +32,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] lg:text-[18px] text-left">
+          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica  text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
@@ -45,7 +45,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] lg:text-[18px] text-left">
+          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica  text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
@@ -58,7 +58,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] lg:text-[18px] text-left">
+          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica  text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
