@@ -111,9 +111,6 @@ return (
           <li className="mb-4 hover:text-sky-600 font-Helvetica font-normal sm:text-[14px]">
             Event Marketing
           </li>
-          <li className="hover:text-sky-600 font-Helvetica font-normal sm:text-[14px]">
-            Customer Relations
-          </li>
         </ul>
         <h5 className="text-[15px] font-semibold sm:mt-14 mb-4 text-[#997200]">
           TALENT NETWORK SERVICES
@@ -143,7 +140,7 @@ return (
             Case Studies
           </li>
           <li className="mb-4 hover:text-sky-600 font-Helvetica font-normal sm:text-[14px]">
-            Our Work
+            Community
           </li>
           <li className="mb-4 hover:text-sky-600 font-Helvetica font-normal sm:text-[14px]">
             E-books
@@ -151,11 +148,9 @@ return (
           <li className="mb-4 hover:text-sky-600 font-Helvetica font-normal sm:text-[14px]">
             Events
           </li>
+
           <li className="mb-4 hover:text-sky-600 font-Helvetica font-normal sm:text-[14px]">
-            Creators Hub
-          </li>
-          <li className="mb-4 hover:text-sky-600 font-Helvetica font-normal sm:text-[14px]">
-            Global Designers
+            Global CMO’s
           </li>
           <li className="font-Helvetica font-normal sm:text-[14px]">
             Help Center
