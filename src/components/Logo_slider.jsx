@@ -49,7 +49,7 @@ const settings = {
       <div className="slider-container text-white text-center cursor-pointer ">
         <Slider {...settings}>
           <div className="size-16 pr-5">
-            <div className="text-white flex justify-center  items-center text-4xl">
+            <div className="text-white flex justify-center gap-4 items-center text-4xl">
               <SiAdobe className="size-10 " />
               <span className="text-3xl font-ubuntu">Adobe</span>
             </div>
