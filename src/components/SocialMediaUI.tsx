@@ -1,7 +1,7 @@
 const SocialMediaUI = () => {
   return (
     <div className="bg-[#F9F5EC] sm:h-[703px] sm:flex sm:justify-center sm:items-center p-8">
-      <div className="sm:w-[1393px]">
+      <div className="sm:w-[92%] md:translate-x-[18px]">
         <div className="flex justify-start">
           <h1 className="font-Helvetica text-[25px] sm:text-[48px] font-normal">
             Get Access to the <span className="text-[#9857F8]">Top 1%</span>{" "}
