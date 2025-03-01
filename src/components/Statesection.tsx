@@ -19,7 +19,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica text-left">
+          <p className="w-[334px] text-[18px] font-normal font-Helvetica text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
@@ -32,7 +32,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica  text-left">
+          <p className="w-[334px] text-[18px] font-normal font-Helvetica  text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
@@ -45,7 +45,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica  text-left">
+          <p className="w-[334px] text-[18px] font-normal font-Helvetica  text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
@@ -58,7 +58,7 @@ const StatsSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          <p className="w-full text-[18px] md:text-[20px] font-normal font-Helvetica  text-left">
+          <p className="w-[334px] text-[18px] font-normal font-Helvetica  text-left">
             Social media creative projects completed to date
           </p>
           <h3 className="text-[48px] md:text-[56px] lg:text-[75px] font-medium">
