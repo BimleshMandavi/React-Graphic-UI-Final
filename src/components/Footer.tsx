@@ -20,7 +20,7 @@ function Footer() {
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">
             PLATFORM
           </h5>
-          <ul className="gap-2 transform -translate-x-[1px] text-[15px]">
+          <ul className="gap-2 transform -translate-x-[1px] text-[14px] font-Helvetica font-normal">
             <li className="mb-2 text-[14px] font-Helvetica font-normal hover:text-sky-600">
               <p>Social Media Audit</p>
             </li>
@@ -34,7 +34,7 @@ function Footer() {
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">
             DESIGN SERVICES
           </h5>
-          <ul className=" transform -translate-x-[1px] text-[15px]">
+          <ul className=" transform -translate-x-[1px] text-[14px] font-Helvetica font-normal">
             <li className="mb-4 hover:text-sky-600">Content Writing</li>
             <li className="mb-4 hover:text-sky-600">Graphic Design</li>
             <li className="mb-4 hover:text-sky-600">Video Production</li>
@@ -50,7 +50,7 @@ function Footer() {
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200] ">
             MARTECH SERVICES
           </h5>
-          <ul className="text-[15px]">
+          <ul className="text-[14px] font-Helvetica font-normal">
             <li className="mb-4 hover:text-sky-600">
               <p>Custom Web Development</p>
             </li>
@@ -62,8 +62,10 @@ function Footer() {
             </li>
             <li className="mb-4 hover:text-sky-600">Social Media Marketing</li>
             <li className="mb-4 hover:text-sky-600">Campaign Planning</li>
-            <li className="hover:text-sky-600">WhatsApp/Email Marketing</li>
-            <li className="hover:text-sky-600">CRM</li>
+            <li className="mb-4 hover:text-sky-600">
+              WhatsApp/Email Marketing
+            </li>
+            <li className="hover:text-sky-600 ">CRM</li>
           </ul>
         </div>
         {/* Column 4 */}
@@ -71,16 +73,15 @@ function Footer() {
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">
             MEDIA SERVICES
           </h5>
-          <ul className="text-[15px]">
+          <ul className=" text-[14px] font-Helvetica font-normal">
             <li className="mb-4 hover:text-sky-600">Media Planning & Buying</li>
             <li className="mb-4 hover:text-sky-600">Influencer Marketing</li>
             <li className="mb-4 hover:text-sky-600">Event Marketing</li>
-            
           </ul>
           <h5 className="text-[15px] font-semibold sm:mt-14 mb-4 text-[#997200]">
             TALENT NETWORK SERVICES
           </h5>
-          <ul className="text-[15px]">
+          <ul className="text-[14px] font-Helvetica font-normal">
             <li className="mb-4 hover:text-sky-600">Get Hired</li>
             <li className="mb-4 hover:text-sky-600">Get Talent</li>
             <li className="hover:text-sky-600">Evaluate Creative Talent</li>
@@ -91,7 +92,7 @@ function Footer() {
           <h5 className="text-[15px] font-semibold text-[#997200] mb-4">
             RESOURCES
           </h5>
-          <ul className="text-[15px]">
+          <ul className="text-[14px] font-Helvetica font-normal">
             <li className="mb-4 hover:text-sky-600">Blogs</li>
             <li className="mb-4 hover:text-sky-600">Case Studies</li>
             <li className="mb-4 hover:text-sky-600">Our Work</li>
@@ -110,13 +111,13 @@ function Footer() {
             <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">
               COMPANY
             </h5>
-            <ul className="text-[15px]">
+            <ul className="text-[14px] font-Helvetica font-normal">
               <li className="mb-2">About Us</li>
               <p className="pb-4">Join our team</p>
               <li className="w-full">
                 <a
                   href="#"
-                  className="text-white w-full hover:underline border lg:min-w-10 border-[#1600ea] bg-[#1600ea] rounded lg:p-2 "
+                  className="text-white w-full hover:underline border lg:min-w-10 border-[#1600ea] bg-[#1600ea] rounded lg:p-2 text-[14px] font-Helvetica font-normal"
                 >
                   Join Team
                 </a>
@@ -129,7 +130,7 @@ function Footer() {
               ADDRESS
             </h5>
             {/* <p className="hover:text-sky-800 cursor-pointer text-[15px]">Address</p> */}
-            <div className="text-[15px]">
+            <div className="text-[14px] font-Helvetica font-normal">
               <p>
                 C 5 A Block - 24, Ground Floor, Janakpuri, New Delhi - 110058
               </p>
@@ -150,7 +151,7 @@ function Footer() {
             <h5 className="text-[15px] font-semibold mb-4 text-start text-[#997200]">
               GET IN TOUCH
             </h5>
-            <div className="text-start text-[15px]">
+            <div className="text-start text-[14px] font-Helvetica font-normal">
               <p>Please connect with us at</p>
               <p className="mb-4">+91-7974100169</p>
               <p className="">
@@ -209,7 +210,7 @@ function Footer() {
         </div>
       </div>
       <div className="container mx-auto p-4 lg:p-0 py-4 lg:py-8 lg:flex lg:justify-between border-t border-[#192138c9] lg:pb-10">
-        <div className="flex justify-evenly text-sm lg:justify-between lg:w-[42%]">
+        <div className="flex justify-evenly text-sm lg:justify-between lg:w-[42%] text-[14px] font-Helvetica font-normal">
           <p className="text-sm text-[#1700ea6d] ">
             © 2024, Designera Inc. All Rights Reserved.
           </p>
@@ -232,7 +233,7 @@ function Footer() {
           </ul>
         </div>
         <div className="py-4 lg:py-0">
-          <p className="text-sm text-gray-600 text-center">
+          <p className=" text-gray-600 text-cente text-[14px] font-Helvetica font-normal">
             A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
           </p>
         </div>
