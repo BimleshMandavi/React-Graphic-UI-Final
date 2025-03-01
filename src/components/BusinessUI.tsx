@@ -4,9 +4,8 @@ import { motion } from "framer-motion";
 function BusinessUI() {
   return (
     <div className="bg-[#120d23] text-white font-sans sm:px-16">
-
-      <section className="text-center py-12">
-        <h2 className="text-4xl font-normal font-Helvetica sm:text-[60px] mb-8">
+      <section className="text-center py-12 ">
+        <h2 className="text-4xl font-normal font-Helvetica sm:text-[60px] mb-8 sm:pt-14">
           Explore Perfect needs with Designera.
         </h2>
         <p className="text-[18px] font-Helvetica font-normal text-[#D6D8D2]  mb-24">
