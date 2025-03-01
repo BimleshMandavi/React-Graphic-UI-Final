@@ -310,7 +310,7 @@ const HorizontalSlider = () => {
       {/* Auto-scrolling horizontal slider with pause */}
       <motion.div
         ref={carouselRef}
-        className="overflow-x-hidden cursor-grab relative md:mx-24"
+        className="overflow-x-hidden cursor-grab relative md:mx-28"
         whileTap={{ cursor: "grabbing" }}
       >
         <motion.div
